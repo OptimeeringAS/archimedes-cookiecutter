@@ -1,11 +1,9 @@
 [project]
-project_name = {{ cookiecutter.repo_name }}
-
-[deploy]
+project_name={{ cookiecutter.repo_name }}
 
 [config]
-    POSTGRES_USER = "archimedes_dev@archimedes-dev"
-    POSTGRES_PASS = ""
-    POSTGRES_HOST = "archimedes-dev.postgres.database.azure.com"
-    POSTGRES_PORT = "5432"
-    POSTGRES_DBNAME = "archimedes"
+POSTGRES_USER=""
+POSTGRES_PASS=""
+POSTGRES_HOST=""
+POSTGRES_PORT=""
+POSTGRES_DBNAME=""
