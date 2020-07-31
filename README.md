@@ -15,6 +15,7 @@ In Python:
 ```py
 from cookiecutter.main import cookiecutter
 
+
 cookiecutter(
     "https://git.optimeering.no/archimedes/archimedes-cookiecutter.git",
     extra_context={
