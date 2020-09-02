@@ -3,11 +3,11 @@
     "project": {
         "project_name": "{{ cookiecutter.repo_name }}",
         "author": "{{ cookiecutter.author_name }}",
-        "api_token": "..."
+        "api_token": "<API_TOKEN>"
     },
     "db": {
         "POSTGRES_USER": "archimedes_dev@archimedes-dev",
-        "POSTGRES_PASS": "...",
+        "POSTGRES_PASS": "<PGPASS>",
         "POSTGRES_HOST": "archimedes-dev.postgres.database.azure.com",
         "POSTGRES_PORT": "5432",
         "POSTGRES_DBNAME": "archimedes"
