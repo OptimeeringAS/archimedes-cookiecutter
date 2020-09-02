@@ -11,4 +11,4 @@ keras
 mlflow
 sklearn
 pandas
-archimedes-python-client
+git+https://git.optimeering.no/archimedes/archimedes-python-client.git
