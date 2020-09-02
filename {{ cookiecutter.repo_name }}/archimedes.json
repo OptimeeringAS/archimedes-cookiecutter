@@ -2,7 +2,7 @@
     "ENVIRONMENT": "development",
     "project": {
         "project_name": "{{ cookiecutter.repo_name }}",
-        "author": "{{ cookiecutter.author }}",
+        "author": "{{ cookiecutter.author_name }}",
         "api_token": "..."
     },
     "db": {
