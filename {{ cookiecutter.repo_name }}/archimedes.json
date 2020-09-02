@@ -1,0 +1,17 @@
+{
+    "ENVIRONMENT": "development",
+    "project": {
+        "project_name": "{{ cookiecutter.repo_name }}",
+        "author": "{{ cookiecutter.author }}",
+        "api_token": "..."
+    },
+    "db": {
+        "POSTGRES_USER": "archimedes_dev@archimedes-dev",
+        "POSTGRES_PASS": "...",
+        "POSTGRES_HOST": "archimedes-dev.postgres.database.azure.com",
+        "POSTGRES_PORT": "5432",
+        "POSTGRES_DBNAME": "archimedes"
+    },
+    "mlflow": {},
+    "prefect": {}
+}
