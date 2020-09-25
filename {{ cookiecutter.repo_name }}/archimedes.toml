@@ -1,9 +1,19 @@
 [project]
-project_name="{{ cookiecutter.repo_name }}"
+name="{{ cookiecutter.repo_name }}"
+author="{{ cookiecutter.author_name }}"
+environment="development"
 
-[config]
+[db]
 POSTGRES_USER="archimedes_dev@archimedes-dev"
 POSTGRES_PASS="<PGPASS>"
 POSTGRES_HOST="archimedes-dev.postgres.database.azure.com"
 POSTGRES_PORT="5432"
 POSTGRES_DBNAME="archimedes"
+
+[prefect]
+server_endpoint="http://prefect.apps.optimeering.192-168-13-1.hawkai.site"
+api_server="http://prefect.apps.optimeering.192-168-13-1.hawkai.site/graphql/"
+docker_registry="https://docker-registry.optimeering.192-168-13-1.hawkai.site/"
+
+[mlflow]
+tracking_url="http://mlflow.apps.optimeering.192-168-13-1.hawkai.site/"
