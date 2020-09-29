@@ -2,6 +2,13 @@
     "project_name": "Your name for the project",
     "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "author_name": "Your initials",
+    "environment": "Environment name eg. prod, dev, stage",
     "description": "A short description of the project.",
+    "postgres_host": "Hostname or IP for postgres database",
+    "postgres_port": "Port number where postgres is listening on postgres_host",
+    "postgres_user": "Username of postgres db to connect to",
+    "postgres_pass": "Password of postgres_user",
+    "postgres_dbname": "Postgres database name",
+    "server_name": "Server name where archimedes is installed",
     "examples": ["no", "yes"]
 }
