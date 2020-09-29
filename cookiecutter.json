@@ -4,5 +4,10 @@
     "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "author_name": "Your initials",
     "description": "A short description of the project.",
+    "postgres_user": "Postgres Username",
+    "postgres_pass": "Postgres Password",
+    "postgres_host": "Postgres Host",
+    "postgres_port": "Postgres Port",
+    "postgres_dbname": "Postgres DB Name",
     "examples": ["no", "yes"]
 }
