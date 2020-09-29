@@ -9,5 +9,6 @@
     "postgres_host": "Postgres Host",
     "postgres_port": "Postgres Port",
     "postgres_dbname": "Postgres DB Name",
+    "server_name": "The URI of the server",
     "examples": ["no", "yes"]
 }
