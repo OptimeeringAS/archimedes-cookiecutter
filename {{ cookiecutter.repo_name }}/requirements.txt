@@ -1,6 +1,3 @@
-# local package
--e .
-
 # external requirements
 boto3
 click
@@ -14,4 +11,3 @@ streamlit
 mlflow
 sklearn
 pandas
-git+https://git.optimeering.no/archimedes/archimedes-python-client.git
