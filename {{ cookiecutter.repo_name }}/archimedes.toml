@@ -13,7 +13,7 @@ postgres_dbname="{{ cookiecutter.postgres_dbname }}"
 [prefect]
 server_endpoint="http://prefect.apps.{{ cookiecutter.server_name }}"
 api_server="http://prefect.apps.{{ cookiecutter.server_name }}/graphql/"
-docker_registry="https://docker-registry.{{ cookiecutter.server_name }}/"
+docker_registry="docker-registry.{{ cookiecutter.server_name }}"
 
 [mlflow]
 tracking_url="http://mlflow.apps.{{ cookiecutter.server_name }}/"

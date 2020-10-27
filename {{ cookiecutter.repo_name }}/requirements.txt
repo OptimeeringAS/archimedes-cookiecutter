@@ -2,6 +2,7 @@
 -e .
 
 # external requirements
+boto3
 click
 coverage
 flake8
