@@ -1,7 +1,7 @@
 # local package
 -e .
 
-# external requirements
+# archimedes external requirements
 boto3
 click
 coverage
@@ -15,3 +15,5 @@ mlflow
 sklearn
 pandas
 git+https://git.optimeering.no/archimedes/archimedes-python-client.git
+
+# user external requirements
