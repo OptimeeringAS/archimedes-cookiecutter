@@ -19,3 +19,6 @@ docker_registry="docker-registry.{{ cookiecutter.server_name }}"
 
 [mlflow]
 tracking_url="http://mlflow.apps.{{ cookiecutter.server_name }}/"
+artifacts_aws_access_key_id="{{ cookiecutter.mlflow_artifacts_aws_access_key_id }}"
+artifacts_aws_secret_access_key="{{ cookiecutter.mlflow_artifacts_aws_secret_access_key }}"
+artifacts_s3_endpoint_url="{{ cookiecutter.mlflow_artifacts_s3_endpoint_url }}"
