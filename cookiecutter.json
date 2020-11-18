@@ -10,5 +10,8 @@
     "postgres_pass": "Password of postgres_user",
     "postgres_dbname": "Postgres database name",
     "server_name": "Server name where archimedes is installed",
+    "aws_access_key_id": "AWS Access key ID used by MLflow",
+    "aws_secret_access_key": "AWS Secret key used by MLflow",
+    "s3_endpoint_url": "S3 Endpoint URL used by MLflow",
     "examples": ["no", "yes"]
 }
