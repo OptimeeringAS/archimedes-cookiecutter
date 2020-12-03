@@ -13,12 +13,12 @@ postgres_port={{ cookiecutter.postgres_port }}
 postgres_dbname="{{ cookiecutter.postgres_dbname }}"
 
 [prefect]
-server_endpoint="http://prefect.apps.{{ cookiecutter.server_name }}"
-api_server="http://prefect.apps.{{ cookiecutter.server_name }}/graphql/"
-docker_registry="docker-registry.{{ cookiecutter.server_name }}"
+server_endpoint="{{ cookiecutter.prefect_server_endpoint }}"
+api_server="{{ cookiecutter.prefect_api_server }}"
+docker_registry="{{ cookiecutter.docker_registry }}"
 
 [mlflow]
-tracking_url="http://mlflow.apps.{{ cookiecutter.server_name }}/"
+tracking_url="{{ cookiecutter.mlflow_tracking_url }}"
 artifacts_aws_access_key_id="{{ cookiecutter.aws_access_key_id }}"
 artifacts_aws_secret_access_key="{{ cookiecutter.aws_secret_access_key }}"
 artifacts_s3_endpoint_url="{{ cookiecutter.s3_endpoint_url }}"
