@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "{{ cookiecutter.repo_name }}"
-version = "0.0.1"
+version = "0.0.2"
 description = "{{ cookiecutter.description }}"
 authors = ["{{ cookiecutter.author_name }}"]
 
@@ -18,7 +18,7 @@ streamlit = "*"
 mlflow = "*"
 sklearn = "*"
 pandas = "*"
-archimedes = {git = "https://git.optimeering.no/archimedes/archimedes-python-client.git"}
+archimedes-python-client = "*"
 
 [tool.poetry.dev-dependencies]
 
