@@ -3,6 +3,9 @@ name = "{{ cookiecutter.repo_name }}"
 version = "0.0.2"
 description = "{{ cookiecutter.description }}"
 authors = ["{{ cookiecutter.author_name }}"]
+packages = [
+    {include = "src"}
+]
 
 [tool.poetry.dependencies]
 python = ">=3.7.1,<4"
