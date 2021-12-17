@@ -1,6 +1,6 @@
 {
     "project_name": "Your name for the project",
-    "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
     "author_name": "Your initials",
     "environment": "Environment name eg. prod, dev, stage",
     "description": "A short description of the project.",
