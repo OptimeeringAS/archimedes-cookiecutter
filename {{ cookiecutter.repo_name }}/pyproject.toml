@@ -4,7 +4,7 @@ version = "0.0.2"
 description = "{{ cookiecutter.description }}"
 authors = ["{{ cookiecutter.author_name }}"]
 packages = [
-    {include = "{{ cookiecutter.repo_name }}"}
+    {include = "src"}
 ]
 
 [tool.poetry.dependencies]

@@ -37,8 +37,8 @@ Jupyter Notebooks and example data).
 │                         first `poetry update`, which is required after the project 
 │                         creation.  
 │
-├── {{ cookiecutter.repo_name }}                <- Source code for use in this project, eg:
-│   ├── __init__.py    <- Makes {{ cookiecutter.repo_name }} a Python module
+├── src                <- Source code for use in this project, eg:
+│   ├── __init__.py    <- Makes src a Python module
 │   │
 │   ├── data           <- Scripts to download or generate data
 │   │   └── make_dataset.py
