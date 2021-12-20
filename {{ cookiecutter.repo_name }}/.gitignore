@@ -87,5 +87,6 @@ target/
 
 # Virtualenv directory
 venv/
+.venv/
 
 requirements.txt
