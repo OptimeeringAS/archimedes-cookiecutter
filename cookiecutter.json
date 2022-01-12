@@ -18,5 +18,5 @@
     "aws_secret_access_key": "AWS Secret key used by MLflow",
     "s3_endpoint_url": "S3 Endpoint URL used by MLflow",
     "examples": ["no", "yes"],
-    "python_version": "Python version to be used with the project"
+    "python_version": "3.9.9"
 }
