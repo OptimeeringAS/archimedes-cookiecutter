@@ -60,7 +60,7 @@ python-versions = "*"
 
 [[package]]
 name = "archimedes-python-client"
-version = "3.2.0"
+version = "3.3.1"
 description = "The Python library for Archimedes"
 category = "main"
 optional = false
@@ -1300,7 +1300,7 @@ python-versions = ">=3.5"
 
 [[package]]
 name = "notebook"
-version = "6.4.6"
+version = "6.4.7"
 description = "A web-based notebook environment for interactive computing"
 category = "main"
 optional = false
@@ -2609,8 +2609,8 @@ appnope = [
     {file = "appnope-0.1.2.tar.gz", hash = "sha256:dd83cd4b5b460958838f6eb3000c660b1f9caf2a5b1de4264e941512f603258a"},
 ]
 archimedes-python-client = [
-    {file = "archimedes-python-client-3.2.0.tar.gz", hash = "sha256:c974eaf3734c5981ff6ebaab026bbb0dc52bb9c1b2f81103cc0e34d7f0e6f529"},
-    {file = "archimedes_python_client-3.2.0-py3-none-any.whl", hash = "sha256:aaedd0837357e3f39fa1ae652d575ee5329633f047cd1b5c1d10c90d349641c5"},
+    {file = "archimedes-python-client-3.3.1.tar.gz", hash = "sha256:01f0f4826f79f48a459e88d4a9d7d25f891fceb16a2c3260aa9fd6e32a2c7484"},
+    {file = "archimedes_python_client-3.3.1-py3-none-any.whl", hash = "sha256:b6eaf24bcbf9f79516312c9a357c0d52715eddc7da36ad899533989ef99b0dec"},
 ]
 argon2-cffi = [
     {file = "argon2-cffi-21.3.0.tar.gz", hash = "sha256:d384164d944190a7dd7ef22c6aa3ff197da12962bd04b17f64d4e93d934dba5b"},
@@ -3413,8 +3413,8 @@ nest-asyncio = [
     {file = "nest_asyncio-1.5.4.tar.gz", hash = "sha256:f969f6013a16fadb4adcf09d11a68a4f617c6049d7af7ac2c676110169a63abd"},
 ]
 notebook = [
-    {file = "notebook-6.4.6-py3-none-any.whl", hash = "sha256:5cad068fa82cd4fb98d341c052100ed50cd69fbfb4118cb9b8ab5a346ef27551"},
-    {file = "notebook-6.4.6.tar.gz", hash = "sha256:7bcdf79bd1cda534735bd9830d2cbedab4ee34d8fe1df6e7b946b3aab0902ba3"},
+    {file = "notebook-6.4.7-py3-none-any.whl", hash = "sha256:968e9c09639fe4b9dbf4b9f028daf861b563c124d735a99d6d48c09317553f31"},
+    {file = "notebook-6.4.7.tar.gz", hash = "sha256:b01da66f11a203b3839d6afa4013674bcfff41c36552f9ad0fbcb2d93c92764a"},
 ]
 numpy = [
     {file = "numpy-1.22.0-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:3d22662b4b10112c545c91a0741f2436f8ca979ab3d69d03d19322aa970f9695"},
