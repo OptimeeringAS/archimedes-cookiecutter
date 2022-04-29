@@ -4,21 +4,3 @@ version="2.0"
 name="{{ cookiecutter.project_name }}"
 author="{{ cookiecutter.author_name }}"
 environment="{{ cookiecutter.environment }}"
-
-[db]
-postgres_user="{{ cookiecutter.postgres_user }}"
-postgres_pass="{{ cookiecutter.postgres_pass }}"
-postgres_host="{{ cookiecutter.postgres_host }}"
-postgres_port={{ cookiecutter.postgres_port }}
-postgres_dbname="{{ cookiecutter.postgres_dbname }}"
-
-[prefect]
-server_endpoint="{{ cookiecutter.prefect_server_endpoint }}"
-api_server="{{ cookiecutter.prefect_api_server }}"
-docker_registry="{{ cookiecutter.docker_registry }}"
-
-[mlflow]
-tracking_url="{{ cookiecutter.mlflow_tracking_url }}"
-artifacts_aws_access_key_id="{{ cookiecutter.aws_access_key_id }}"
-artifacts_aws_secret_access_key="{{ cookiecutter.aws_secret_access_key }}"
-artifacts_s3_endpoint_url="{{ cookiecutter.s3_endpoint_url }}"
