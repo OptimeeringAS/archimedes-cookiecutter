@@ -1,22 +1,7 @@
 {
     "project_name": "Your name for the project",
     "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
-    "author_name": "Your initials",
     "environment": "Environment name eg. prod, dev, stage",
     "description": "A short description of the project.",
-    "postgres_host": "Hostname or IP for postgres database",
-    "postgres_port": "Port number where postgres is listening on postgres_host",
-    "postgres_user": "Username of postgres db to connect to",
-    "postgres_pass": "Password of postgres_user",
-    "postgres_dbname": "Postgres database name",
-    "server_name": "Server hostname of archimedes server",
-    "docker_registry": "Docker registry server address",
-    "prefect_server_endpoint": "Endpoint for Prefect server",
-    "prefect_api_server": "Endpoint for Prefect GraphQL API server",
-    "mlflow_tracking_url": "Mlflow tracking URL",
-    "aws_access_key_id": "AWS Access key ID used by MLflow",
-    "aws_secret_access_key": "AWS Secret key used by MLflow",
-    "s3_endpoint_url": "S3 Endpoint URL used by MLflow",
     "examples": ["no", "yes"],
-    "python_version": "3.9.9"
 }
